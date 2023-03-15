@@ -661,3 +661,35 @@ border-bottom: 1px solid #ECECEC;
     position: absolute;
     bottom: 4px;
 }
+
+.li-overlay {
+    overflow: hidden;
+    position: relative;
+    height: 379px;
+}
+
+.card-overlay {
+    height: 294px;
+    width: 370px;
+    position: absolute;
+    background: rgba(33, 150, 243, 0.9);
+    transform: translateY(101%);
+    transition: transform 250ms linear;
+}
+
+.overlay-text {
+    padding-top: 70px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.projects-list li:hover .card-overlay {
+    transform: translateY(0px);
+}
+
+.border-line {
+    z-index: 1;
+}
