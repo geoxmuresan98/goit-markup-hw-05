@@ -58,7 +58,6 @@ text-decoration: none;
 }
 
 .efective-section{
-    image-resolution: inherit;
     background-size: cover;
     background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.1)),
     linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.1)), url(../Images/backgroundphoto.jpg);
