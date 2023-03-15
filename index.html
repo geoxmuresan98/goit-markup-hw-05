@@ -14,6 +14,14 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body class="body">
+<!--ModalSection-->
+    <div class="modal is-hidden" data-modal>
+      <div class="inner-div">
+        <button data-modal-close class="modal-close-button"><svg width="11" height="11">
+          <use href="./Images/icon.svg.svg#icon-cross"></use>
+      </svg></button>
+      </div>
+    </div>
     <!--HeaderSection-->
     <header class="header-section">
       <div class="header-container container">
@@ -46,7 +54,7 @@
             EFFECTIVE SOLUTIONS FOR <br />
             YOUR BUSINESS
           </h1>
-          <button class="request-botton">Request our service</button>
+          <button data-modal-open class="request-botton">Request our service</button>
         </div>
       </section>
 
@@ -439,5 +447,6 @@
         </div>
       </div>
     </footer>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
